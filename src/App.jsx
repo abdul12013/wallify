@@ -6,7 +6,7 @@ import Download from "./pages/Download"
 import Data from "./pages/Data"
 import Anime from "./pages/Anime"
 import Nature from "./pages/Nature"
-import Mobile from "./pages/mobile"
+import Mobile from "./pages/Mobile"
 
 
 const App= ()=>{
