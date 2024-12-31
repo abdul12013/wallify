@@ -1,3 +1,4 @@
+
 import {  useEffect, useState } from "react"
 import Navbar from '../Component/Navbar'
 import Cart from "../Component/Cart"
@@ -6,10 +7,21 @@ import Search from "../Component/Search"
 import { TailSpin } from "react-loader-spinner"
 
 
-const Home = () => {
+
   
  
 
+  
+ 
+ 
+
+  
+ 
+ 
+ 
+
+const home = () => {
+    
   const [item,setItem]=useState([])
   const [loading,setLoading]=useState(false)
 
@@ -44,13 +56,6 @@ const Home = () => {
  
 
   console.log(`length ${item.length}`)
-  
- 
- 
-
-  
- 
- 
   return (
     <>
       
@@ -61,7 +66,7 @@ const Home = () => {
      
     
     <Search/>
-   <div className=" pt-10  min-h-screen w-full bg-slate-200 md:flex flex-wrap">
+   <div className=" pt-10  min-h-screen w-full bg-slate-200 md:flex ">
 
     { 
     
@@ -75,8 +80,7 @@ const Home = () => {
    
     
     </>
-    
   )
 }
 
-export default Home
+export default home

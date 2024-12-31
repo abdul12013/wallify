@@ -2,7 +2,7 @@
 
 import { Route, Router, Routes } from "react-router-dom"
 import Home from "./pages/Home"
-import Download from "./pages/download"
+import Download from "./pages/Download"
 import Data from "./pages/Data"
 import Anime from "./pages/Anime"
 import Nature from "./pages/Nature"
