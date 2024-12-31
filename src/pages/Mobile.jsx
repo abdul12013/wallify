@@ -4,7 +4,7 @@ import Navbar from '../Component/Navbar'
 import Cart from "../Component/Cart"
 import axios from "axios"
 import Search from "../Component/Search"
-const Mobile = () => {
+const mobile = () => {
     const [item,setItem]=useState([])
     const [loading,setLoading]=useState(false)
     const Api_call= async()=>{
@@ -45,4 +45,4 @@ const Mobile = () => {
   
 }
 
-export default Mobile
+export default mobile
