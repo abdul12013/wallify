@@ -66,7 +66,7 @@ const home = () => {
      
     
     <Search/>
-   <div className=" pt-10  min-h-screen w-full bg-slate-200 md:flex ">
+   <div className=" pt-10  min-h-screen w-full bg-slate-200 md:flex flex-wrap ">
 
     { 
     
