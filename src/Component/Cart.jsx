@@ -11,7 +11,7 @@ function  Cart(props) {
   return (
     <>
     
-  <div className="rounded-lg overflow-hidden shadow-slate-500 shadow-lg h-auto w-72  mt-10 ml-7">
+  <div className="rounded-lg overflow-hidden shadow-slate-500 shadow-lg h-auto w-72  mt-10 ml-10">
    
    <img onClick={dow} src={props.image}  alt="Image 1" className="h-full w-auto object-cover cursor-pointer" />
   </div>
